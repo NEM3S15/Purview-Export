@@ -10,7 +10,7 @@ Ce script a pour objectif de contourner la limitation du nombre de lignes extrai
 
 # Installation du module ExchangePowerShell et authentification
 Install-Module -Name ExchangePowerShell
-Connect-IPPSSession -UserPrincipalName example@groupeonepoint.com
+Connect-IPPSSession -UserPrincipalName example@domain.com
 
 # Initialisation des variables
 $scriptPath = $MyInvocation.MyCommand.Path
